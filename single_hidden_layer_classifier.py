@@ -9,7 +9,7 @@ shape_X = X.shape
 shape_Y = Y.shape
 m = X.shape[1]  # training set size
 
-def sigmoid(x, derivative=False):
+def sigmoid(x):
   return 1/(1+np.exp(-x))
 
 def layer_sizes(X, Y):
